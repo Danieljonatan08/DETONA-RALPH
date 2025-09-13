@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../image/wall.png);
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    color: #fff;
+    background-color: #000000;
+    border-bottom: 5px solid gold;
+
+}
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2){
+    margin: 10px;
+}
+
+.panel{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.square{
+    height: 150px;
+    width: 150px;
+    background-image: url(../image/nuvem.png);
+    background-size: contain;
+    z-index: 0;
+    border: 1px solid #000;
+
+}
+.enemy{
+    background-image: url(/src/image/ralph.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.menu-lives{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-lives img{
+    width: 60px;
+    height: 60px;
+
+}
